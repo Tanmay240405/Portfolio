@@ -46,7 +46,7 @@ export default function About() {
 
         <div className="about__lanyard-centered">
           <Lanyard
-            position={[0, 0, 16]}
+            position={[0, 0, 14]}
             gravity={[0, -20, 0]}
             frontImage={generateBadgeImage()}
             imageFit="cover"
