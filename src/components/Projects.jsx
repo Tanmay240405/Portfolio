@@ -13,7 +13,7 @@ const PROJECTS = [
     emoji: '📄',
     image: '/ResumeForgeAI.png',
     github: 'https://github.com/Tanmay240405/ResumeForgeAI.git',
-    live: 'https://resume-forge-ai-iota.vercel.app/',
+    live: 'https://resume-forge-ai.tanmaysaxena.me',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const PROJECTS = [
     emoji: '🏎️',
     image: '/F1.Experience.png',
     github: 'https://github.com/Tanmay240405/F1.experience.git',
-    live: 'https://f1-experience-nu.vercel.app/',
+    live: 'https://f1.experience.tanmaysaxena.me/',
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const PROJECTS = [
     emoji: '🎨',
     image: '/PaintbyNumbers.png',
     github: 'https://github.com/Tanmay240405/Paint-By-Number-web.git',
-    live: 'https://paint-by-numbers-beta.vercel.app/',
+    live: 'https://paint-by-numbers.tanmaysaxena.me',
   },
   {
     id: 4,
