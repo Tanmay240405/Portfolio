@@ -122,10 +122,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll cue */}
-      <a href="#about" className="hero__scroll-cue" aria-label="Scroll down">
-        <span className="scroll-cue__dot" />
-      </a>
+
     </section>
   )
 }

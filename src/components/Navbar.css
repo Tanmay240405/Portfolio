@@ -10,7 +10,6 @@
   background: rgba(10,10,10,0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid var(--clr-border);
   padding: 14px 0;
 }
 
@@ -79,17 +78,19 @@
   display: none;
   flex-direction: column;
   gap: 4px;
-  padding: 12px 24px 20px;
+  padding: 0 24px;
   background: rgba(10,10,10,0.95);
   backdrop-filter: blur(16px);
-  border-top: 1px solid var(--clr-border);
+  border-top: 0px solid transparent;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.35s ease, padding 0.25s ease;
+  transition: max-height 0.35s ease, padding 0.25s ease, border-width 0.25s ease, border-color 0.25s ease;
 }
 
 .navbar__drawer--open {
   max-height: 400px;
+  padding: 12px 24px 20px;
+  border-top: 1px solid var(--clr-border);
 }
 
 .drawer__link {
