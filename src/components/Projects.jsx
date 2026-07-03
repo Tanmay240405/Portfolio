@@ -3,6 +3,19 @@ import './Projects.css'
 
 const PROJECTS = [
   {
+    id: 5,
+    title: 'GolfForGood',
+    desc: 'Developed a full-stack, subscription-driven web application using React, Node.js, Express, Prisma, and Supabase that merges golf score tracking with automated charitable giving. Engineered a custom lottery-style draw engine to match user-submitted Stableford scores with monthly prize pools, managing secure database operations, winner verification workflows, and automated donation distribution.',
+    tags: ['React', 'Node.js', 'Prisma', 'Supabase'],
+    cat: 'Web',
+    featured: true,
+    color: '#10b981',
+    emoji: '⛳',
+    image: '/G4G.png',
+    github: 'https://github.com/Tanmay240405/Golf4Good',
+    live: 'https://golf4-good-evwd.vercel.app/',
+  },
+  {
     id: 1,
     title: 'ResumeForge AI',
     desc: 'An intelligent resume builder that leverages AI to generate ATS-optimized content, offering real-time scoring, tailored bullet points, and dynamic PDF generation.',
